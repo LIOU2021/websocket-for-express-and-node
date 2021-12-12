@@ -1,0 +1,25 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart":"nodemon index,js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIOU2021/websocket-for-express-and-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LIOU2021/websocket-for-express-and-node/issues"
+  },
+  "homepage": "https://github.com/LIOU2021/websocket-for-express-and-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "ws": "^8.3.0"
+  }
+}
